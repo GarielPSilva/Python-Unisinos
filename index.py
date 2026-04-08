@@ -1,6 +1,7 @@
-garrafa_suco_330ml = int(input("Digite a quantidade de garrafas de 330ml: "))
-garrafa_suco_700ml = int(input("Digite a quantidade de garrafas de 700ml: "))
-garrafa_suco_1_3L = int(input("Digite a quantidade de garrafas de 1.3L: "))
+salario_minimo = int(input("Digite o valor do salário mínimo: "))
+salario_funcionario = int(input("Digite o valor do salário do funcionário: "))
+horas_trabalhadas = int(input("Digite o número de horas trabalhadas: "))
+valor_hora = salario_minimo / 8
+salario_final = valor_hora * horas_trabalhadas
+print(f"O salário final do funcionário é: R$ {salario_final:.2f}")
 
-total_ml = (garrafa_suco_330ml * 0.33) + (garrafa_suco_700ml * 0.7) + (garrafa_suco_1_3L * 1.3)
-print(f"A quantidade total de litros é: {total_ml:.2f} litros")
